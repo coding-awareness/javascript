@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Functions</title>
+    </head>
+    <body>
+        <h3>JavaScript Functions | <a href="../index.html">Home</a></h3>
+        <p>View Source code: <strong>Ctrl + U</strong></p>
+        <p>Open Console for output: <strong>F12</strong></p>
+        <script>
+
+            // Function call before declaration
+            myFirstFunction()
+
+           // Function declaration
+           function myFirstFunction() {
+            console.log("function declaration")
+           }
+
+           // Function call
+           myFirstFunction()
+
+           // Function expression
+           var fnExpression = function() {
+            console.log("Function expression")
+           }
+
+           // function expression call
+           fnExpression()
+
+           // Function with parameter
+           function stdName(_name) {
+            console.log("Name: " + _name)
+           }
+
+           // call function with parameter
+           stdName("Ravi")
+           stdName("Pandu")
+        </script>
+    </body>
+</html>

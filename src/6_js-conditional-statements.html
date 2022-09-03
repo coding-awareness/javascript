@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Conditional Statements</title>
+    </head>
+    <body>
+        <h3>JavaScript Conditional Statements | <a href="../index.html">Home</a></h3>
+        <p>View Source code: <strong>Ctrl + U</strong></p>
+        <p>Open Console for output: <strong>F12</strong></p>
+        <script>
+            var month = "Mar";
+
+            console.log("---if---")
+            if(month) {
+                console.log("Month: " + month)
+            }
+
+            console.log("---if else---")
+            if(month == "Jan") {
+                console.log(month + " is first month")
+            } else {
+            console.log("Month: " + month)
+            }
+
+            console.log("---if.. else if---")
+            if(month == "Jan") {
+                console.log(month + " is first month")
+            } else if(month == "Feb") {
+                console.log(month + " is second month")
+            }
+
+            console.log("---switch---")
+            switch(month) {
+                case "Jan":
+                console.log(month + " month 1")
+                break;
+                case "Feb":
+                console.log(month + " month 2")
+                break;
+                default:
+                console.log(month + " default month")
+            }
+        </script>
+    </body>
+</html>

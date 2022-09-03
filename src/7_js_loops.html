@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Loops</title>
+    </head>
+    <body>
+        <h3>JavaScript Loops | <a href="../index.html">Home</a></h3>
+        <p>View Source code: <strong>Ctrl + U</strong></p>
+        <p>Open Console for output: <strong>F12</strong></p>
+        <script>
+           console.log("--- for ---")
+           for(var i = 1;/* init */ i <= 12;/* condition */ i++ /* incr/decr */) {
+            console.log("Month: " + i);
+           }
+
+           console.log("--- do while ---")
+           var mins = 0;
+           do {
+            console.log("Mins: " + mins);
+            mins += 1
+           }
+           while (mins >= 20)
+
+           console.log("--- while ---")
+           var hrs = 1;
+           while (hrs <= 12) {
+            console.log("Hours: " + hrs);
+            hrs += 1
+           }
+
+        </script>
+    </body>
+</html>

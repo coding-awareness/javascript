@@ -3,18 +3,18 @@
     <head>
         <title>JavaScript Events</title>
     </head>
-    <body onload="alert('Page loaded!')">
+    <body onload="alert('page loaded')">
         <h3>JavaScript Events | <a href="../index.html">Home</a></h3>
         <p>Open Console for output: <strong>F12</strong></p><hr>
-        <p onclick="alert('JS alert on click.')">Click event</p>
-        <button ondblclick="dbclick()">Double click</button>
-        Enter your name <input type="text" onkeydown="keydown()">
+        <p onclick="alert('clicked')">Click event</p>
+        <button ondblclick="dblClick()" value="">Double Click</button>
+        Name: <input type="text" onkeydown="keyPress()">
         <script>
-           function dbclick() {
-            console.log("Double click")
+           function dblClick() {
+            console.log("double click")
            }
-           function keydown() {
-            console.log("User entering name...")
+           function keyPress() {
+            console.log("User entering details...")
            }
         </script>
     </body>

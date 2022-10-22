@@ -8,21 +8,19 @@
         <p>Open Console for output: <strong>F12</strong></p><hr>
 
         <script>
-            let webTech = ["HTML", "CSS", "JavaScript", 10, 20];
-            webTech[0] = "HTML 5"
-            console.log(webTech[0])
+            let webTech = ["HTML", "CSS", "JavaScript", 20, 40, true];
+            console.log(webTech[webTech.length - 2])
 
-            console.log("--Access using Loop--");
-            for(let i = 0; i < webTech.length; i++) {
-                console.log("Array - ", webTech[i])
+            console.log("--Access using loop--")
+            for( let i = 0; i<webTech.length; i++) {
+                console.log(webTech[i])
             }
 
-            console.log("--Update using Loop--");
-            for(let i = 0; i < webTech.length; i++) {
-                webTech[i] = i + " " + webTech[i]
-                console.log("Updated value - ", webTech[i])
+            console.log("--Update using loop--")
+            for( let i = 0; i<webTech.length; i++) {
+                webTech[i] = i + " " + webTech[i];
+                console.log(webTech[i])
             }
-            
         </script>
     </body>
 </html>

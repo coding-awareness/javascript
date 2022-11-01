@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Object</title>
+    </head>
+    <body>
+        <h3>JavaScript Object | <a href="../index.html">Home</a></h3>
+        <p>Open Console for output: <strong>F12</strong></p><hr>
+
+        <script>
+            let course = {
+                name: "Web Development",
+                duration: 1,
+                status: "not started",
+                start: function() {
+                    this.status = "Started"
+                    console.log(this.status);
+                },
+                complete: function() {
+                    this.status = "Completed"
+                    console.log(this.status);
+                }
+            }
+        </script>
+    </body>
+</html>
